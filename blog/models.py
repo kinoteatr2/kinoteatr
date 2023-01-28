@@ -4,7 +4,7 @@ from django.utils import timezone
 
 class Post(models.Model):
 	author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-	poster = models.ImageField(blank = True, upload_to = 'blog/static/images', width_field=50, max_length=25)
+	poster = models.ImageField(blank = True, upload_to = 'blog/static/images', width_field=1000, max_length=1000)
 	title = models.CharField(max_length=200)
 	genre = models.CharField(max_length=200)
 	text = models.TextField()
