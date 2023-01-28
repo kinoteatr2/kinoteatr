@@ -1,29 +1,30 @@
 .page-header {
-background-color: #808080;
+background-color: #7b68ee;
 margin-top: 0;
 padding: 20px 20px 20px 40px;
 }
 .footer {
 font-size: 12pt;
-background-color: #808080;
+background-color: #4169e1;
 text-align: center;
 padding: 20px 20px 20px 40px;
 margin-top: 0;
 }
 .page-header h1, .page-header h1 a:visited, .page-header h1 a:active {
-color: #ffffff;
+color: #6495ed;
 font-size: 36pt;
 text-decoration: none;
 }
 .content {
 margin-left: 40px;
+background-color: #6495ed;
 }
 h1, h2, h3, h4 {
 font-family: 'Roboto', sans-serif;
-color: #000000;
+color: #ffffff;
 }
 .date {
-color: #000000;
+color: #ffffff;
 }
 .save {
 float: right;
@@ -41,9 +42,9 @@ margin-right: 20px;
 margin-bottom: 70px;
 }
 .post h1 a, .post h1 a:visited {
-color: #696969;
+color: #ffffff;
 text-decoration: none;
 }
 body {
-background-color: #ffffff;
+background-color: #6495ed;
 }
